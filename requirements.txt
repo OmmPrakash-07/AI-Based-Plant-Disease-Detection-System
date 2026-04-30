@@ -1,0 +1,6 @@
+Flask
+tensorflow-macos
+opencv-python
+numpy
+Pillow
+matplotlib

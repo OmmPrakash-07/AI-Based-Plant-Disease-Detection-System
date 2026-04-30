@@ -1,0 +1,7 @@
+venv/
+venv310/
+dataset/
+model/
+static/uploads/
+__pycache__/
+*.pyc

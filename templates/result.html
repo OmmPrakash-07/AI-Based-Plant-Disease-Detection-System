@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Result</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>🔍 Detection Result</h1>
+
+    <img src="/{{ image_path }}" width="300"><br><br>
+
+    <h2>Disease: {{ prediction }}</h2>
+    <h3>Confidence: {{ confidence }}%</h3>
+
+    <br>
+    <a href="/">🔁 Try Another</a>
+</div>
+
+</body>
+</html>
