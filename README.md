@@ -4,14 +4,39 @@ A Flask web application that detects plant disease in uploaded leaf images using
 
 ## Project Structure
 
+The project is organized as follows:
+
+```text
+plant-disease-detection/
+├── app.py
+├── train.py
+├── requirements.txt
+├── model/
+│   └── plant_model.keras
+├── dataset/
+│   ├── train/
+│   │   ├── Tomato_Early_blight/
+│   │   └── Tomato_healthy/
+│   └── test/
+│       ├── Tomato_Early_blight/
+│       └── Tomato_healthy/
+├── static/
+│   ├── style.css
+│   └── uploads/
+└── templates/
+    ├── index.html
+    └── result.html
+```
+
 - `app.py` - Flask application entrypoint and prediction logic.
-- `templates/` - HTML templates for the homepage and result page.
-- `static/` - Static assets including CSS and uploaded images.
+- `train.py` - (Optional) training script for model development.
+- `requirements.txt` - Python dependencies.
 - `model/plant_model.keras` - Trained Keras model used for inference.
 - `dataset/` - Training and testing datasets organized by class.
   - `dataset/train/` contains class folders used to build the label list.
   - `dataset/test/` contains test images.
-- `requirements.txt` - Python dependencies.
+- `static/` - Static assets including CSS and uploaded images.
+- `templates/` - HTML templates for the homepage and result page.
 
 ## Setup
 
