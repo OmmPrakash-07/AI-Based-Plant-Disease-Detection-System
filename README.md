@@ -26,6 +26,7 @@ plant-disease-detection/
 ├── sample_images/
 │   ├── tomato_healthy_sample.JPG
 │   └── tomato_early_blight_sample.JPG
+├── screenshots/
 └── templates/
     ├── index.html
     └── result.html
@@ -98,6 +99,14 @@ The repository now includes a `sample_images/` folder with two example inputs fr
 - `sample_images/tomato_early_blight_sample.JPG`
 
 Use these images to verify the Flask app by uploading them through the web interface or by testing the same preprocessing and model prediction flow locally.
+
+## Result Screenshot Reference
+
+A sample app result screenshot is available as a reference for the model output page. Save your screenshot as:
+
+- `screenshots/result_page.png`
+
+Then you can add or update this file to show the predicted disease and confidence output in the README or project documentation.
 
 ## Notes
 
