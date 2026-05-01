@@ -23,6 +23,9 @@ plant-disease-detection/
 ├── static/
 │   ├── style.css
 │   └── uploads/
+├── sample_images/
+│   ├── tomato_healthy_sample.JPG
+│   └── tomato_early_blight_sample.JPG
 └── templates/
     ├── index.html
     └── result.html
@@ -86,6 +89,15 @@ http://127.0.0.1:5000
 - It automatically loads class names from `dataset/train/`.
 - Uploaded images are resized to `128x128`, normalized, and passed to the model.
 - The predicted class and confidence score are shown on the result page.
+
+## Sample Images
+
+The repository now includes a `sample_images/` folder with two example inputs from the test dataset:
+
+- `sample_images/tomato_healthy_sample.JPG`
+- `sample_images/tomato_early_blight_sample.JPG`
+
+Use these images to verify the Flask app by uploading them through the web interface or by testing the same preprocessing and model prediction flow locally.
 
 ## Notes
 
